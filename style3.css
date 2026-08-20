@@ -1,0 +1,72 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Facebook Logo */
+.facebook-logo {
+    color: #1877f2;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Login Card */
+.card {
+    border-radius: 10px;
+}
+
+/* Input fields */
+.form-control {
+    border-radius: 6px;
+}
+
+.form-control:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 0.2rem rgba(24, 119, 242, 0.15);
+}
+
+/* Login button */
+.btn-primary {
+    background-color: #1877f2;
+    border-color: #1877f2;
+}
+
+.btn-primary:hover {
+    background-color: #166fe5;
+    border-color: #166fe5;
+}
+
+/* Forgot password */
+.forgot-link {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Create account button */
+.btn-success {
+    background-color: #42b72a;
+    border-color: #42b72a;
+}
+
+.btn-success:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+    .facebook-logo {
+        font-size: 42px;
+    }
+
+    .card-body {
+        padding: 20px !important;
+    }
+}@charset "utf-8";
+/* CSS Document */
+
